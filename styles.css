@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -8,9 +7,9 @@ body {
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #FF3333;
     color: white;
-    padding: 40px;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -18,7 +17,8 @@ nav ul {
     list-style: none;
     padding: 10px;
     text-align: center;
-    background-color: #0056b3;
+    background-color: #FF3333;
+    margin: 0;
 }
 
 nav ul li {
@@ -29,6 +29,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 section {
@@ -42,32 +43,59 @@ section {
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #007BFF;
+    padding: 20px;
+    background-color: #FF3333;
     color: white;
 }
 
 h2 {
-    color: #0056b3;
-}
-
-.btn {
-    background-color: #0056b3;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.education-entry, .experience-entry, .project, .hobby {
-    margin-bottom: 20px;
-}
-
-h3 {
-    color: #333;
+    color: #FF3333;
 }
 
 h3, p {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #FF3333;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: white;
+    color: #FF3333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 50px;
+    background-image: url('background-image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
     margin: 0;
-    padding: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.social-media a img {
+    width: 30px;
+    margin: 0 10px;
 }
